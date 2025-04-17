@@ -6,15 +6,15 @@
   - LangGraph is built for developers who want to build powerful, adaptable AI agents.
   - Developer choose LangGraph for:
 
-  - # Reliability and controllability
+    ## Reliability and controllability
     - steer agent actions with moderation checks and human-in-the-loop approvals.
     - LandGraph persists context for long running workflows, keeping your agents on course
 
-    # Low-level and extensible
+    ## Low-level and extensible
     - Build custom agents with fully descriptive, low-level primitives free from rigid abstractions that limit customization.
     - Design scalable multi-agent systems, with each agent serving a specific role tailored to your use case.
 
-    # First-class streaming support
+    ## First-class streaming support
      - With token-by-oken streaming and streaming of intermediate steps, LangGraph gives users clear visibility into agents reasoning and actions as they unfold in real time.
 
 
