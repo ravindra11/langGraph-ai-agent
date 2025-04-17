@@ -1,0 +1,31 @@
+{
+  "name": "langgraph-ai-agent",
+  "version": "1.0.0",
+  "description": "Building ai agents using langGraph",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravindra11/langGraph-ai-agent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravindra11/langGraph-ai-agent/issues"
+  },
+  "homepage": "https://github.com/ravindra11/langGraph-ai-agent#readme",
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.18",
+    "@langchain/community": "^0.3.40",
+    "@langchain/core": "^0.3.44",
+    "@langchain/langgraph": "^0.2.64",
+    "@langchain/openai": "^0.5.5",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.3"
+  }
+}
