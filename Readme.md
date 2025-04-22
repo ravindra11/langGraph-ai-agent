@@ -22,3 +22,10 @@
  - while langGraph can be used standalone, it also integrates seamlessly with given to developers a full suite of tools for building agents. To improve your LLM application development, pain LangGraph with
  - ## LangSmith 
     - Helpful for agent evals and observability. Debug poor-performing LLM app runs, evaluate agent trajectories, gain visibility in production, and improve performance over time.
+
+
+ - createReactAgent can be greatful for simple agents, but sometimes you need something more powerful.
+ - LangGraph really shines when you need fine-grained control over an agent's behavior. 
+ - A ToolNode enables the LLM to use tools. we make a shouldContinue function and passed it to `addConditionalEdge`, so our ReAct Agent can either call a tool or respond to the request
+ - `Annotations` are how graph state is represented in LangGraph. We're using `MessagesAnnotations`, a helper that implements a common pattern: keeping the message history in an array.
+ 

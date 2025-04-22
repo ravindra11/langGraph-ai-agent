@@ -1,5 +1,6 @@
 import { TavilySearchResults } from "@langchain/community/tools/tavily_search";
 import { ChatOpenAI } from "@langchain/openai";
+// langchain/langgraph contains the building blocks used to assemble an agent
 import { MemorySaver } from "@langchain/langgraph";
 import { HumanMessage } from "@langchain/core/messages";
 import { createReactAgent } from "@langchain/langgraph/prebuilt";
@@ -7,7 +8,6 @@ import { createReactAgent } from "@langchain/langgraph/prebuilt";
 
 // please export OPENAI_API_KEY and TAVILY_API_KEY
 async function Agent(){
-
 
 // defining the tools for the agent to use
 const agentTools = [new TavilySearchResults({ maxResults: 3 })];
